@@ -3,7 +3,7 @@
 	print_r($_REQUEST);
 	echo "</br>";
 
-	require_once ('main.php');
+	require_once ('main.php');<h1></h1>
 
 	$palabra0 = strtolower($_REQUEST["palabra0"]);
 	$palabra1 = strtolower($_REQUEST["palabra1"]);
